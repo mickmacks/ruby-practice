@@ -10,10 +10,10 @@ def p_times word, num
 	num.times do 
 		puts word
 	end
-	break
+
 end
 
-puts p_times 'hello', 5
+p_times 'hello', 5
 
 # 2.) Write a method called letter_count to count letter 
 # occurrence in a string, returned as a Hash. For example, 
